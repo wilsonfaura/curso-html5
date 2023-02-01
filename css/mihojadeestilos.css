@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document*/
+
+#cabeceraweb{
+    background-color: aqua;
+}
+
+#navegacionprincipal{
+    background-color: brown;
+
+}
+
+#barralateral{
+    background-color: aquamarine;
+    float: left;
+    height: 1101px;
+}
+
+#contenidoprincipal{
+    background-color: rebeccapurple;
+    margin-left: 200px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+#pieprincipal{
+    background-color: greenyellow;
+    clear: both;
+    margin-top: 15px;
+}
+
+#navegacionprincipal li{
+    background-color: yellow;
+    display: inline;
+}

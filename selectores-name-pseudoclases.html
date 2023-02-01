@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p[name="miselementos"]{/*Selectores de nombre: name="miselementos" (name^="mis" que empiecen por mis), (name$="tos" que terminen por tos), (name*="ise" que contengan ise en cualquier parte del nombre)*/
+            color: #F00;
+        }
+
+        p:nth-child(even){/*pseudoclases p:nth-child(2) odd para los impares even para los pares*/
+            color: blue;
+        }
+
+        p:first-child{/*pseudoclases primer hijo*/
+            color: chartreuse;
+        }
+
+        p:last-child{/*pseudoclases ultimo hijo*/
+            color:hotpink;
+        }
+
+        p:only-child{/*pseudoclases unico hijo*/
+            color:yellow;
+        }
+    </style>
+</head>
+
+<body>
+<p name="miselementos">Hola</p>
+<p name="miselementos">Adios</p>
+<p name="misestilos">Febrero</p>  
+<p name="misestilos">Febrero</p>
+
+<ol>
+    <li>Frutas
+    <p>Pera</p>
+    <p>Limon</p>
+    <p>Fresa</p>
+    <p>Manzana</p>
+    <p>Melon</p></li>
+    <li>verduras
+    <p>Zanahoria</p>
+    <p>lechuga</p>
+    <p>espinaca</p>
+    <p>tomate</p>
+    <p>arbeja</p></li>
+    <li>legumbres
+    <p>Frijol</p></li>
+</ol>
+
+<p>Hasta pronto</p>
+</body>
+</html>
