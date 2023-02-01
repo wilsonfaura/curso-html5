@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #principal{
+            width: 500px;
+            /*background-color: blue;*/
+            text-align: center;
+            margin: 30px auto;
+            padding: 15px;
+            border: 3px solid #F00;
+            border-radius: 15px 5px 15px 40px;
+            box-shadow: #999 15px 15px 5px;
+            background: -webkit-linear-gradient(left, #00F 10%, #3FF 70%);
+            background: -moz-radial-gradient(center, ellipse, #00F, #3FF);
+            background: -ms-linear-gradient(left, #00F, #3FF);
+            background: -o-linear-gradient(left, #00F 50%, #3FF 50%);
+            outline: 2px dashed #F00;
+            outline-offset: 15px;
+            -webkit-transform: scale(1.1);
+            -webkit-transform: skew(10deg);
+            -webkit-transition: -webkit-transform 1s ease 0.5s;
+        }
+
+        #principal:hover{            
+            -webkit-transform: rotate(15deg);
+        }
+        
+        @font-face{
+            font-family: 'mifuente';
+            src: url(font/BAUHS93.ttf);
+        }
+
+        #titulo{
+            font: bold 36px 'mifuente';
+            text-shadow: #0F6 3px 3px 5px;
+            color: rgba(red, green, blue, alpha);
+        }
+    </style>
+</head>
+<body>
+    <header id="principal">
+        <span id="titulo">Estilos CC3</span>
+    </header>
+</body>
+</html>
