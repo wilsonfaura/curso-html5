@@ -1,0 +1,79 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+   /*Fin del reset css*/
+
+   body{
+    font-size: 62.5%;
+    background-color: #0CF;
+   }
+
+   h1{
+    font: normal 2.4em Verdana, Geneva, sans-serif;
+    background: -webkit-linear-gradient(top, #00F, #0CF);
+    width: 35%;
+    border-radius: 20px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px;
+    color: #FFF;
+    box-shadow: #00F 5px 5px 10px;
+    text-shadow: #FFF 2px 2px 5px;
+   }
+
+   h2{
+    font: bold 1.7em Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+    color: #000;
+   }
+
+   section{
+    width: 90%;
+    border: 1px dashed #999;
+    margin: 15px auto;
+   }
+
+   figure{
+    float: left;
+    margin: 10px;
+   }
+
+   figure img{
+    padding: 4px;
+    background: #999;
+    border-radius: 20px;
+    -webkit-transition: -webkit-transform 0.4s ease-in-out 0.1s;
+    box-shadow: #999 5px 5px 10px;
+   }
+
+   figure img:hover{
+    -webkit-transform: scale(1.2);
+   }
+
+   figcaption{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 5px;
+   }
+
+   footer{
+    clear:both;
+    padding-top: 20px;
+   }
+
+   footer p{
+    font: 1.6em Georgia, Times, serif;
+    color: #999;
+    margin: 10px 8px;
+   }
